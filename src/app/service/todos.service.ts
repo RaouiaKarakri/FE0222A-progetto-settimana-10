@@ -16,15 +16,6 @@ return new Promise((resolve, reject) => {
 })
 }
 
-export async function getTask(): Promise<Todo []>{
-  return new Promise((resolve, reject) => {
-    setTimeout(() =>{
-      resolve(todoList);
-    },2000)
-  })
-}
-
-
 
 
 
